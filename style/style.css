@@ -1,0 +1,85 @@
+body {
+    font-family: 'Neucha', cursive;
+    color: gold;
+    height:100%; 
+    margin:0; 
+    padding:0;
+    
+}
+
+header {
+    position: fixed; 
+    width:50%; 
+    height:50%;
+    
+}
+
+    .split {
+    overflow:hidden;
+    width: 960px;
+    height: 540px;
+}
+    
+    .left {
+    top:0;   
+    left:0; 
+}
+
+    .right {
+    top:0;   
+    left:50%;
+}
+
+    .topleft {
+    top:50%; 
+    left:50%;
+}
+
+    .topright {
+    top:50%; 
+    left:0; 
+}
+
+    ul li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}     /*Масштабування фонів*/
+    .menu, img {
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+}
+    .menu, img:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}      /*Затемнення фонів*/
+
+    img {
+    -webkit-filter: brightness(100%);
+    
+}
+    img:hover {
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+      /*Посилання*/
+    .fon {
+        
+    }
+
+    
+        
+    
+}
+  
+
+
+
+
