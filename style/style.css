@@ -1,6 +1,6 @@
 body {
-    font-family: 'Neucha', cursive;
-    color: gold;
+    font-family: 'Poiret One', cursive;
+    color: #fff;
     height:100%; 
     margin:0; 
     padding:0;
@@ -40,7 +40,7 @@ header {
     left:0; 
 }
 
-    ul li {
+    ul {
     display: block;
     margin: 0;
     padding: 0;
@@ -55,14 +55,14 @@ header {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1);
+    
 }      /*Затемнення фонів*/
 
     img {
     -webkit-filter: brightness(100%);
-    
 }
     img:hover {
-    -webkit-filter: brightness(60%);
+    -webkit-filter: brightness(80%);
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
@@ -70,14 +70,45 @@ header {
     transition: all 1s ease;
 }
       /*Посилання*/
-    .fon {
-        
-    }
+    a {
+        position:relative;
+        text-decoration: none;
+        font-size: 80px;
+        color: #fff;
+        text-align: center;
+        top: 180px;
+        left: 380px;
+        box-shadow: 0px 12px 16px #000000;
+        width: 200px;
+        display: block;
+        -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    border-radius: 59px 59px 59px 59px;
+-moz-border-radius: 59px 59px 59px 59px;
+-webkit-border-radius: 59px 59px 59px 59px;
+border: 0px none #000000;
+}
+    a:hover {
+        -webkit-transform: scale(1.3);
+        -moz-transform: scale(1.3);
+        -o-transform: scale(1.3);
+}
+
+.music {
+      left: 350px;
+      width: 300px; 
+      height: 100px; 
+}
+.arhiv {
+    width: 250px; 
+    height: 100px; 
+}
+    
+    
 
     
-        
-    
-}
+   
   
 
 
